@@ -87,7 +87,7 @@
     background-image: url("images/icon-cart.svg");
     background-repeat: no-repeat;
     background-color: hsl(158, 36%, 37%);
-    background-position: 30% 50%;
+    background-position: 25% 50%;
     color: white;
     border: none;
     border-radius: 10px;
@@ -95,6 +95,12 @@
     font-weight: bold;
     font-size: 0.9rem;
     padding: 0;
+  }
+
+  @media (hover: hover) {
+    .button {
+      cursor: pointer;
+    }
   }
 
 }
