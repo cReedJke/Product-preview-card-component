@@ -6,14 +6,15 @@
     margin: 0;
     font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card {
-    width: 600px;
+    max-width: 600px;
     height: 450px;
-    position: absolute;
-    top: calc(50% - 225px);
-    left: calc(50% - 300px);
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
   }
